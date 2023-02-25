@@ -9,7 +9,7 @@ pipeline{
             steps{
                 
                 script{
-                     git credentialsId: 'githubrepo', url: 'https://github.com/sunilkapare/demo-counter-app.git'
+                    git branch: 'main', url: 'https://github.com/vikash-kumar01/mrdevops_javaapplication.git
                    
                 }
             }
